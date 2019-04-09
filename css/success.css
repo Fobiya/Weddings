@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/*CSS FONTS Web~Oman*/
+/*CSS FONTS END Web~Oman*/
+button {
+  border: none !important; }
+
+a, button {
+  cursor: pointer;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+a:hover, button:hover {
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+div, a {
+  position: relative;
+  display: block; }
+
+html *,
+html *:before,
+html *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+[class^="red__botton"] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  z-index: 2; }
+
+.red__botton {
+  max-width: 502px;
+  text-align: center;
+  background: #8c0000;
+  color: #fff;
+  z-index: 2;
+  font-size: 1.15em;
+  width: 100%;
+  height: 70px;
+  line-height: 70px; }
+
+.red__botton:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 70px;
+  font-size: 1.15em;
+  z-index: -1; }
+
+.red__botton:hover {
+  -webkit-box-shadow: 0px 5px 7.44px 0.56px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 5px 7.44px 0.56px rgba(0, 0, 0, 0.22); }
+
+.red__botton:hover:before {
+  background: #6d0c0c;
+  width: 100%;
+  height: 70px;
+  line-height: 70px; }
+
+/* независимые элименты STYLE Web~Oman --------- */
+.call_botton {
+  max-width: 200px !important;
+  width: 100%;
+  height: 55px !important;
+  text-decoration: none;
+  line-height: 53px;
+  font-size: 1.5em;
+  border: 2px solid #1ea1de;
+  color: #1ea1de;
+  font-size: 1.3em;
+  letter-spacing: .02em;
+  text-align: center;
+  background: none; }
+  .call_botton:hover {
+    color: #0a435e;
+    border: 2px solid #0a435e; }
+
+html *,
+html *:before,
+html *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+@-webkit-keyframes criss-cross-left {
+  0% {
+    left: -20px; }
+  50% {
+    left: 50%;
+    width: 20px;
+    height: 20px; }
+  100% {
+    left: 50%;
+    width: 100%;
+    height: auto; } }
+
+@keyframes criss-cross-left {
+  0% {
+    left: -20px; }
+  50% {
+    left: 50%;
+    width: 20px;
+    height: 20px; }
+  100% {
+    left: 50%;
+    width: 100%;
+    height: auto; } }
+
+@-webkit-keyframes criss-cross-right {
+  0% {
+    right: -20px; }
+  50% {
+    right: 50%;
+    width: 20px;
+    height: 20px; }
+  100% {
+    right: 50%;
+    width: 100%;
+    height: auto; } }
+
+@keyframes criss-cross-right {
+  0% {
+    right: -20px; }
+  50% {
+    right: 50%;
+    width: 20px;
+    height: 20px; }
+  100% {
+    right: 50%;
+    width: 100%;
+    height: auto; } }
+
+@keyframes anim {
+  0% {
+    margin-top: 15px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  50% {
+    margin-top: 25px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  100% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+@-webkit-keyframes anim {
+  0% {
+    margin-top: 15px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  50% {
+    margin-top: 25px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  100% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+/* END независимые элименты STYLE Web~Oman ------ */
+/*CSS style Web~Oman*/
+header {
+  background: url(../images/success.png) no-repeat top center;
+  height: 649px; }
+  header .box__content {
+    margin-top: 130px;
+    padding: 80px 0px 90px 60px;
+    background: #fff;
+    max-width: 445px;
+    width: 100%;
+    margin-left: auto; }
+    header .box__content h1 {
+      color: #2a2a2a;
+      margin-bottom: 20PX; }
+    header .box__content .info {
+      color: #2a2a2a;
+      line-height: 1.2EM;
+      margin-bottom: 45px; }
+    header .box__content .red__botton {
+      text-decoration: none; }
+
+/*CSS style Web~Oman*/
+/*CSS style (max-width: 1199px) and (min-width: 993px) Web~Oman                               ----------------------------------   1199*/
+/*CSS END style (max-width: 1199px) and (min-width: 993px) END Web~Oman  */
+/*CSS style (max-width: 992px) and (min-width: 769px) Web~Oman                                 ----------------------------------   992*/
+/*CSS END style (max-width: 992px) and (min-width: 769px) END Web~Oman  */
+/*CSS style (max-width: 768px) and (min-width: 541px) Web~Oman                                 ----------------------------------   768*/
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+  header {
+    background: url(../images/success.png) no-repeat top center;
+    height: 649px;
+    text-align: center; }
+    header .box__content {
+      margin-top: 130px;
+      padding: 80px 60px 90px 60px;
+      background: #fff;
+      max-width: 525px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      header .box__content h1 {
+        color: #2a2a2a;
+        margin-bottom: 20PX; }
+      header .box__content .info {
+        color: #2a2a2a;
+        line-height: 1.2EM;
+        margin-bottom: 45px; }
+      header .box__content .red__botton {
+        text-decoration: none; } }
+
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+  header {
+    background: url(../images/success.png) no-repeat top center;
+    height: 649px;
+    text-align: center; }
+    header .box__content {
+      margin-top: 130px;
+      padding: 50px 20px 50px 20px;
+      background: #fff;
+      max-width: 525px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      header .box__content h1 {
+        color: #2a2a2a;
+        margin-bottom: 20PX; }
+      header .box__content .info {
+        color: #2a2a2a;
+        line-height: 1.2EM;
+        margin-bottom: 45px; }
+      header .box__content .red__botton {
+        text-decoration: none; } }
+
+/*CSS END style (max-width: 540px) and (min-width: 321px) END Web~Oman  */
+/*CSS style (max-width: 320px) and (min-width: 200px) { Web~Oman                               ----------------------------------  320*/
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+  header {
+    background: url(../images/success.png) no-repeat top center;
+    height: 649px;
+    text-align: center; }
+    header .box__content {
+      margin-top: 130px;
+      padding: 35px 10px 35px 10px;
+      background: #fff;
+      max-width: 525px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      header .box__content h1 {
+        color: #2a2a2a;
+        margin-bottom: 20PX; }
+      header .box__content .info {
+        color: #2a2a2a;
+        line-height: 1.2EM;
+        margin-bottom: 45px; }
+      header .box__content .red__botton {
+        text-decoration: none; } }
+
+/*CSS END style (max-width: 320px) and (min-width: 200px) END Web~Oman  */
